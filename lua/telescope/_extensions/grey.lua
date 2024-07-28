@@ -28,7 +28,7 @@ return require('telescope').register_extension({
         layout.preview.width = layout.preview.width + 1
         layout.preview.col = layout.preview.col - 1
         layout.preview.borderchars =
-          { '─', '│', '─', '│', '┬', '┤', '┘', '┴' }
+          { '─', '│', '─', '│', '┬', '┤', '╯', '┴' }
       end
 
       return layout
@@ -49,7 +49,7 @@ return require('telescope').register_extension({
         layout.preview.width = layout.preview.width + 1
         layout.preview.col = layout.preview.col - 1
         layout.preview.borderchars =
-          { '─', '│', '─', '│', '┬', '┤', '┘', '┴' }
+          { '─', '│', '─', '│', '┬', '┤', '╯', '┴' }
       end
 
       return layout
